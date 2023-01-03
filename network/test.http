@@ -1,0 +1,6 @@
+## POST请求
+POST http://gpt.kube.moguit.cn/text?search=effictive java
+Content-Type: application/json
+
+{
+}
