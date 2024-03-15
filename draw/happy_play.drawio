@@ -1,0 +1,40 @@
+<mxfile host="Electron" modified="2023-12-13T05:02:35.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="2DevnrJ1AYvcprGv0VRg" version="22.1.2" type="device">
+  <diagram name="第 1 页" id="0WRVtloz2K6NaQ2CbaJ0">
+    <mxGraphModel dx="780" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SP6recNhCX9S8kxskvK9-1" value="大教室" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="90" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SP6recNhCX9S8kxskvK9-2" value="观影室" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="130" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SP6recNhCX9S8kxskvK9-3" value="食堂" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SP6recNhCX9S8kxskvK9-5" value="饮水区" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SP6recNhCX9S8kxskvK9-6" value="图书阅览室" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="90" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="SP6recNhCX9S8kxskvK9-7" value="室内运动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="250" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SP6recNhCX9S8kxskvK9-8" value="卫生间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SP6recNhCX9S8kxskvK9-9" value="户外活动区" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="390" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SP6recNhCX9S8kxskvK9-10" value="准备室" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="30" width="140" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SP6recNhCX9S8kxskvK9-11" value="1.宗旨：寓教于乐&lt;br&gt;2.happy一整天&lt;br&gt;3.个人作业完成&lt;br&gt;4.国学知识&lt;br&gt;5.团体活动&lt;br&gt;6.竞技比赛&lt;br&gt;7.体育运动" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="40" width="190" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

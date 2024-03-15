@@ -1,0 +1,111 @@
+<mxfile host="Electron" modified="2023-10-18T01:31:44.087Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="p_eppqWSu2x28PtIs6rQ" version="22.0.2" type="device">
+  <diagram name="第 1 页" id="Ty52NLJcJw9SfpjNwdFo">
+    <mxGraphModel dx="1607" dy="1665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vh8uB2OroEwljGvEppy5-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vh8uB2OroEwljGvEppy5-1" target="Vh8uB2OroEwljGvEppy5-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-1" value="我" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vh8uB2OroEwljGvEppy5-3" target="Vh8uB2OroEwljGvEppy5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vh8uB2OroEwljGvEppy5-3" target="Vh8uB2OroEwljGvEppy5-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-20" value="妹妹" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vh8uB2OroEwljGvEppy5-18">
+          <mxGeometry x="0.0417" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-3" value="母亲" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vh8uB2OroEwljGvEppy5-5" target="Vh8uB2OroEwljGvEppy5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-5" value="父亲" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vh8uB2OroEwljGvEppy5-9" target="Vh8uB2OroEwljGvEppy5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vh8uB2OroEwljGvEppy5-9" target="Vh8uB2OroEwljGvEppy5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-16" value="妹妹" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vh8uB2OroEwljGvEppy5-15">
+          <mxGeometry x="-0.1167" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vh8uB2OroEwljGvEppy5-9" target="Vh8uB2OroEwljGvEppy5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vh8uB2OroEwljGvEppy5-9" target="Vh8uB2OroEwljGvEppy5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vh8uB2OroEwljGvEppy5-9" target="Vh8uB2OroEwljGvEppy5-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-30" value="兄弟" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vh8uB2OroEwljGvEppy5-29">
+          <mxGeometry x="0.037" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-9" value="外祖父" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vh8uB2OroEwljGvEppy5-10" target="Vh8uB2OroEwljGvEppy5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-10" value="阿梅代夫人&lt;br&gt;&lt;br&gt;外祖母" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-14" value="姑祖母" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vh8uB2OroEwljGvEppy5-17" target="Vh8uB2OroEwljGvEppy5-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-23" value="丈夫" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vh8uB2OroEwljGvEppy5-22">
+          <mxGeometry x="-0.0583" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-17" value="奥莱妮&lt;br&gt;&lt;br&gt;姨妈" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-21" value="奥克达夫&lt;br&gt;&lt;br&gt;姨父" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-25" value="弗朗索瓦丝&lt;br&gt;&lt;br&gt;佣人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-28" value="阿道夫&lt;br&gt;&lt;br&gt;外叔祖父" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-31" value="布洛克&lt;br&gt;&lt;br&gt;同学" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-33" value="萨士拉夫人&lt;br&gt;&lt;br&gt;邻居" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-34" value="德·夏吕斯" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-35" value="斯万" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-36" value="贝戈特" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vh8uB2OroEwljGvEppy5-37" value="欧拉莉" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
