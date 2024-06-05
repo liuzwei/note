@@ -1,0 +1,139 @@
+<mxfile host="Electron" modified="2024-03-20T07:20:34.367Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="8sqdmo87TLwjzdCr9OGF" version="24.0.4" type="device">
+  <diagram name="第 1 页" id="Z8xbePOuwH0qOTs9bOrb">
+    <mxGraphModel dx="1621" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-1" value="狄克先生" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-2" value="斯特朗博士" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="210" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-3" value="斯特朗太太&lt;div&gt;（安妮）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="614" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-4" value="大卫科波菲尔" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-5" value="爱格妮斯" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-9" value="乌利亚·希普" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XSbayG7OpXsXjEOxRKaF-12" target="XSbayG7OpXsXjEOxRKaF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-14" value="朋友" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XSbayG7OpXsXjEOxRKaF-13">
+          <mxGeometry x="-0.2083" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="XSbayG7OpXsXjEOxRKaF-12" target="XSbayG7OpXsXjEOxRKaF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-16" value="侄孙子" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XSbayG7OpXsXjEOxRKaF-15">
+          <mxGeometry x="-0.0364" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-12" value="姨婆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="XSbayG7OpXsXjEOxRKaF-17" target="XSbayG7OpXsXjEOxRKaF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-30" value="主仆" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XSbayG7OpXsXjEOxRKaF-29">
+          <mxGeometry x="0.1308" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XSbayG7OpXsXjEOxRKaF-17" target="XSbayG7OpXsXjEOxRKaF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-32" value="父女" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XSbayG7OpXsXjEOxRKaF-31">
+          <mxGeometry x="0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-17" value="威克菲尔" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="XSbayG7OpXsXjEOxRKaF-18" target="XSbayG7OpXsXjEOxRKaF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-20" value="母子" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XSbayG7OpXsXjEOxRKaF-19">
+          <mxGeometry x="0.1048" relative="1" as="geometry">
+            <mxPoint x="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-18" value="希普太太" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="XSbayG7OpXsXjEOxRKaF-21" target="XSbayG7OpXsXjEOxRKaF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-21" value="希普先生" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="XSbayG7OpXsXjEOxRKaF-23" target="XSbayG7OpXsXjEOxRKaF-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-26" value="兄妹" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XSbayG7OpXsXjEOxRKaF-25">
+          <mxGeometry x="0.0611" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="XSbayG7OpXsXjEOxRKaF-23" target="XSbayG7OpXsXjEOxRKaF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-28" value="继父" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XSbayG7OpXsXjEOxRKaF-27">
+          <mxGeometry x="0.185" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-23" value="谋得斯通先生" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="200" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-24" value="谋得斯通小姐" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="200" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-45" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="160" y="430" width="340" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="XSbayG7OpXsXjEOxRKaF-45" source="XSbayG7OpXsXjEOxRKaF-33" target="XSbayG7OpXsXjEOxRKaF-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="110" />
+              <mxPoint x="280" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-33" value="威尔斯·米考伯先生" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XSbayG7OpXsXjEOxRKaF-45">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-34" value="米考伯太太" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XSbayG7OpXsXjEOxRKaF-45">
+          <mxGeometry x="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="XSbayG7OpXsXjEOxRKaF-45" source="XSbayG7OpXsXjEOxRKaF-35" target="XSbayG7OpXsXjEOxRKaF-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-35" value="威尔金斯" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XSbayG7OpXsXjEOxRKaF-45">
+          <mxGeometry x="10" y="180" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="XSbayG7OpXsXjEOxRKaF-45" source="XSbayG7OpXsXjEOxRKaF-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-39" value="妹妹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XSbayG7OpXsXjEOxRKaF-45">
+          <mxGeometry x="130" y="180" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSbayG7OpXsXjEOxRKaF-40" value="双胞胎" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XSbayG7OpXsXjEOxRKaF-45">
+          <mxGeometry x="240" y="180" width="80" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
