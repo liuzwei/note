@@ -431,7 +431,6 @@ determination 决心
 | await  | wait等                                | 使劲的等               | v.   | 等待               | await sb. sth.                                                                  |
 | aware  | ware 表看                             | 使劲看，觉察到，意识到 | adj. | 意识到，觉察到     | be aware of sth.<br />He was a well aware of something.                        |
 
-
 ### 2. ab-, abs-  与什么相反；离开某地；相反
 
 | 单词   | 词根                  | 解释                 | 词性 | 释义             | 例句                                                                                       |
@@ -443,15 +442,15 @@ determination 决心
 
 ### 3. ac-, ad-, ag-, ap-, ar-, as-, at- 加强
 
-| 单词       | 词根                         | 解释             | 词性 | 释义       | 例句                                                                                       |
-| ---------- | ---------------------------- | ---------------- | ---- | ---------- | ------------------------------------------------------------------------------------------ |
-| accelerate | ac- 加强， celer 表速度，快 |                  | vt.  | 增速       |                                                                                            |
-| accent     | cent 表示百                  | 能说一百遍的方言 | n.   | 口音       | strong accent<br />She speaks English with an Chinese accent                              |
-| access     | cess 表走路，来去            | 加强的走，接近   | n.   | 接近       | The only access to the farmer house                                                        |
-| accompany  | company 陪伴                 |                  | vt.  | 陪伴，伴随 | His wife accompanys him on the trip<br />accompanying CD 附赠CD<br />with sth. accompanyed |
-| accord     | cord 心脏 蹦蹦跳             |                  |      | 一致       | according to 按照，取决于<br />in accord with something 与……一致                         |
+| 单词       | 词根                         | 解释                 | 词性 | 释义       | 例句                                                                                       |
+| ---------- | ---------------------------- | -------------------- | ---- | ---------- | ------------------------------------------------------------------------------------------ |
+| accelerate | ac- 加强， celer 表速度，快 |                      | vt.  | 增速       |                                                                                            |
+| accent     | cent 表示百 century          | 能说一百遍的方言     | n.   | 口音       | strong accent<br />She speaks English with an Chinese accent                              |
+| access     | cess 表走路，来去            | 加强的走，接近       | n.   | 接近       | The only access to the farmer house                                                        |
+| accompany  | company 陪伴                 |                      | vt.  | 陪伴，伴随 | His wife accompanys him on the trip<br />accompanying CD 附赠CD<br />with sth. accompanyed |
+| accord     | cord 心脏 蹦蹦跳             | 我和你的心都是一样的 |      | 一致       | according to 按照，取决于<br />in accord with something 与……一致                         |
 
-### 4. ad-,  ag-,  
+### 4. ad-,  ag-,
 
 | 单词       | 词根                                                                   | 解释                                                               | 词性 | 释义               | 例句                                                |
 | ---------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------ | ---- | ------------------ | --------------------------------------------------- |
@@ -466,17 +465,69 @@ determination 决心
 
 ### 5. ap-,  ar-,  as-， at-，
 
-| 单词    | 词根     | 解释 | 词性 | 释义 | 例句                |
-| ------- | -------- | ---- | ---- | ---- | ------------------- |
-| appoint | point 点 |      | vt.  | 任命 | appoint sb. at 哪  |
-|         |          |      |      |      |                     |
+| 单词        | 词根                                                   | 解释                                                 | 词性 | 释义                         | 例句                                                                                                                                                                            |
+| ----------- | ------------------------------------------------------ | ---------------------------------------------------- | ---- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| appoint     | point 点                                               | 很强烈的指指点点，<br />让你去哪就去哪，就是任命委派 | vt.  | 任命                         | appoint sb. at 哪<br />They appointed him as captain of England team <br />be appointed to do something                                                                        |
+| appreciate  | preci price变过来的，代表价格价值<br /> -ate 动词后缀 | 肯定你的价值，重视你赏识你                           | vt.  | 欣赏，赏识<br />感谢，感激   | precious moment<br />Her family doesn't appreciate her.                                                                                                                         |
+| appropriate | propri  proper 适当，恰当<br />-ate 形容词后缀        |                                                      | adj. | 适当的，恰当的               | appropriate measure<br />Is now an appropriate time to make a speach.<br />It's not an appropriate manner.                                                                      |
+| approach    | proach 近，物理上的，时间上的近                        |                                                      | v.   | 靠近，接近                   | Spring is approaching                                                                                                                                                           |
+| approve     | prove 证明                                             |                                                      | vt.  | 批准，赞成                   | I told my mother i wanted to leave school but she didn't approve.<br />approve of something<br />approve of sb. doing  sth.<br />I approve of you eating sugar                 |
+| arrange     | range 排列                                             |                                                      | vt.  | 排列，安排                   | ranging from …… to ……<br />the party was arranged quikly<br />arranged to do sth.<br />Have you arranged to meet teacher Han ?                                              |
+| arrest      | rest 休息                                              | 强制休息，不能动了                                   | vt   | 逮捕，阻止                   | She was arrested for drug related offense                                                                                                                                       |
+| assign      | sign 签名                                              | 使劲签个名，这个就是你的了                           | vt.  | 分配，交给                   | assignment 任务<br />the two large classroom have been assigned to us                                                                                                           |
+| assist      | sist 站立                                              | 加强站立，坚定的站在你身边                           | v.   | 帮助，协助                   | assist sb. in doing sth.<br />We will assist you in finding somewhere to live<br />assist in with sth.<br />We are looking for people who will be to assist in the group's work |
+| assure      | sure 确定                                              | 加强的确定，很确定                                   | vt.  | 使确信，向……保证           | assure sb. of sth.<br />We assured him of our support.                                                                                                                          |
+| attain      | tain 拿，捏，握，狠狠的拿住<br />contain maintain      | 使劲的拿住，稳稳的拿住，就是得到                     | vt.  | 通过努力，获得，得到         | Most of our students attained five 'A' grades in their exams.                                                                                                                   |
+| attempt     | temp 诱惑                                              | 引诱别人去做什么事情，就是尝试                       |      | 企图，试图，尝试             | I passed my drving test at the first attempt<br />attempt to do sht. 企图做某事                                                                                                |
+| attract     | tract 拖，拉                                           | 把所有的眼光，注意力拉过来                           |      | 吸引，使喜爱，引起……的好感 | I had always been attracted by the idea of working abroad.                                                                                                                      |
+| attribute   | tri 表示三，所有<br />bute 给                          | 所有的原因都给你了                                   | v    | 把……归因于                 | attribute sth. to sth.<br />She attributes her success to hard work and a little luck.                                                                                          |
+| attach      | tach 喜爱，依恋                                        | 很喜爱很依恋，抱大腿，固定住了                       |      | 把……固定                   |                                                                                                                                                                                 |
 
 | 单词 | 词根 | 解释 | 词性 | 释义 | 例句 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 |      |      |      |      |      |      |
 |      |      |      |      |      |      |
 
-confident
+| 单词 | 词根 | 解释 | 词性 | 释义 | 例句 |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+|      |      |      |      |      |      |
+|      |      |      |      |      |      |
+
+| 单词 | 词根 | 解释 | 词性 | 释义 | 例句 |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+|      |      |      |      |      |      |
+|      |      |      |      |      |      |
+
+| 单词 | 词根 | 解释 | 词性 | 释义 | 例句 |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+|      |      |      |      |      |      |
+|      |      |      |      |      |      |
+
+| 单词 | 词根 | 解释 | 词性 | 释义 | 例句 |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+|      |      |      |      |      |      |
+|      |      |      |      |      |      |
+
+| 单词 | 词根 | 解释 | 词性 | 释义 | 例句 |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+|      |      |      |      |      |      |
+|      |      |      |      |      |      |
+
+| 单词 | 词根 | 解释 | 词性 | 释义 | 例句 |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+|      |      |      |      |      |      |
+|      |      |      |      |      |      |
+
+| 单词 | 词根 | 解释 | 词性 | 释义 | 例句 |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+|      |      |      |      |      |      |
+|      |      |      |      |      |      |
+
+| 单词      | 词根 | 解释 | 词性 | 释义 | 例句 |
+| --------- | ---- | ---- | ---- | ---- | ---- |
+|           |      |      |      |      |      |
+|           |      |      |      |      |      |
+| confident |      |      |      |      |      |
 
 confident 自信的
 
