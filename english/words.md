@@ -483,15 +483,35 @@ determination 决心
 | attribute   | tri 表示三，所有<br />bute 给                          | 所有的原因都给你了                                   | v    | 把……归因于                 | attribute sth. to sth.<br />She attributes her success to hard work and a little luck.                                                                                          |
 | attach      | tach 喜爱，依恋                                        | 很喜爱很依恋，抱大腿，固定住了                       |      | 把……固定                   |                                                                                                                                                                                 |
 
-| 单词 | 词根 | 解释 | 词性 | 释义 | 例句 |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-|      |      |      |      |      |      |
-|      |      |      |      |      |      |
+### 6. be-  使……怎么样，使……处于……状态，bene- 表示好  by- 在旁边的
 
-| 单词 | 词根 | 解释 | 词性 | 释义 | 例句 |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-|      |      |      |      |      |      |
-|      |      |      |      |      |      |
+| 单词       | 词根                | 解释           | 词性  | 释义       | 例句                                                                                       |
+| ---------- | ------------------- | -------------- | ----- | ---------- | ------------------------------------------------------------------------------------------ |
+| behalf     |                     | 为了另一半     |       | 利益       | in behalf of sb.<br />We collected money in behalf of the homeless.<br />on behalf of 代表 |
+| behave     | have                | 拥有某个东西后 | adv.  | 表现       | He behaved like a gentleman.<br />He behaved as if nothing had happened.                   |
+| before     | fore 表前，forehead | 介词，表示前面 | prep. |            | the day before yesterday                                                                   |
+| behind     | hind 后面           | 介词，表示后面 | prep. |            | stay close behind me .<br />She glanced hehind her.                                        |
+| below      | low                 | 在下面         | prep. |            | Skirts will be worn below the knee.                                                        |
+| beside     | side                | 在旁边         | prep. | 在旁边     | He sat beside her all night.<br />My painting looks childish beside yours.                 |
+| benefit    |                     |                |       | 益处，优势 | to one's benefit 对谁有利                                                                  |
+| bypass     | pass通道            | 在通道的旁边   |       | 旁路       | heart bypass surgery                                                                       |
+| by-product | product产品         |                | n.    | 副产品     |                                                                                            |
+| bystander  | stander             |                | n.    | 旁观者     | onlooker同义词                                                                             |
+| bywork     | work 工作           |                | n.    | 副业       |                                                                                            |
+
+### 7. co-,  com-,  con-,  cor-  共同
+
+| 单词        | 词根                                                         | 解释                                                       | 词性 | 释义                                   | 例句                                                                             |
+| ----------- | ------------------------------------------------------------ | ---------------------------------------------------------- | ---- | -------------------------------------- | -------------------------------------------------------------------------------- |
+| cooperate   | ate动词后缀<br />oper 表工作，或什么                         | 大家在一起工作                                             | v.   | 合作，协作                             |                                                                                  |
+| collaborate | lab 劳动                                                     | 一起共同劳动，具体的工作，都贡献                           | v.   | 合作，协作                             | collaborate to 将要做<br />We have collaborated on many projects over the years. |
+| collapse    | laps 滑倒                                                    | 全部都滑倒，就是崩塌                                       |      | 倒塌，坍塌                             |                                                                                  |
+| collect     | lect源于词根leg- 收集，聚集在一起<br />leg来源于拉丁词legere | 把全部收集、聚集在一起                                     |      | 收集                                   |                                                                                  |
+| comparison  | par 平等 -ison                                               | 相同的事务放在一块比较                                     | n    | 比较                                   |                                                                                  |
+| compassion  |                                                              |                                                            |      | 同情，怜悯                             |                                                                                  |
+| compose     | pose 放置，摆姿势                                            | 大家都放在那不动了，组成<br />音符放置在五线谱上，就是作曲 |      | 组成，构成<br />使镇静、平静<br />作曲 | be composed of sth.                                                              |
+| concord     | cord心                                                       |                                                            |      | 和谐，和睦                             |                                                                                  |
+| confront    | front前面                                                    | 大家一块到前面去，迎难而上                                 |      | 面对，对抗<br />处理，解决             | She knew that she had to confront her fears.                                     |
 
 | 单词 | 词根 | 解释 | 词性 | 释义 | 例句 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
