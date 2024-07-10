@@ -508,15 +508,24 @@ determination 决心
 | collapse    | laps 滑倒                                                    | 全部都滑倒，就是崩塌                                       |      | 倒塌，坍塌                             |                                                                                  |
 | collect     | lect源于词根leg- 收集，聚集在一起<br />leg来源于拉丁词legere | 把全部收集、聚集在一起                                     |      | 收集                                   |                                                                                  |
 | comparison  | par 平等 -ison                                               | 相同的事务放在一块比较                                     | n    | 比较                                   |                                                                                  |
-| compassion  |                                                              |                                                            |      | 同情，怜悯                             |                                                                                  |
+| compassion  |                                                              | 共同的情感，同情和怜悯                                     |      | 同情，怜悯                             |                                                                                  |
 | compose     | pose 放置，摆姿势                                            | 大家都放在那不动了，组成<br />音符放置在五线谱上，就是作曲 |      | 组成，构成<br />使镇静、平静<br />作曲 | be composed of sth.                                                              |
-| concord     | cord心                                                       |                                                            |      | 和谐，和睦                             |                                                                                  |
+| concord     | cord心                                                       | 大家的心都在一起，同心协力，就很和谐                       |      | 和谐，和睦                             |                                                                                  |
 | confront    | front前面                                                    | 大家一块到前面去，迎难而上                                 |      | 面对，对抗<br />处理，解决             | She knew that she had to confront her fears.                                     |
 
-| 单词 | 词根 | 解释 | 词性 | 释义 | 例句 |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-|      |      |      |      |      |      |
-|      |      |      |      |      |      |
+### 8. 
+
+| 单词        | 词根                                           | 解释                                                 | 词性 | 释义                       | 例句                                                                                                                                                              |
+| ----------- | ---------------------------------------------- | ---------------------------------------------------- | ---- | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| consist     | sist  表示站立                                | 全都一块站在这                                       | v.   | 组成、组合                 | consist of 由……组成<br />the committee consists of ten members.<br />consist in 存在于，在于<br />The beauty of the city consists in its magnificent buildings. |
+| contract    | tractor 拉                                     | 双方拉到一块来                                       | n.   | 合同、合约                 |                                                                                                                                                                   |
+| correlate   | relate 联系                                    | 彼此相互有关联，有联系                               | n.   | 相互关联影响<br />相互依赖 | A correlate with B A和B有紧密的联系。                                                                                                                             |
+| correspond  | cor-表共同，respond 反应                       | 你也这么反应，我也这么反应，一致，符合               | v.   | 相一致、符合               | correspond with sth. 与……相符                                                                                                                                   |
+| combat      | bat  battle 表打斗                            | 加强的打，搏斗                                       | n.   | 搏斗；打仗                 | He was killed in combat.                                                                                                                                          |
+| commemorate | memor 记忆                                     | 一起回忆，加强去记忆一个东西就是纪念                 | v.   | 纪念；作为……的纪念       | A series of movies will be shown to commemorate the thirtieth anniversary of his death.                                                                           |
+| compress    | press压                                        | 使劲压，就是压缩                                     | v.   | 压缩; 浓缩、精简           | Her lips compressed into a thin line.                                                                                                                             |
+| concise     | cis 表切<br />decide                           | 一块切，麻溜的                                       | adj. | 简明的；简练的             | a concise summary                                                                                                                                                 |
+| conclude    | clude 关门<br />exclude 排除<br />include 包含 | 把什么样的东西都关起来，就你们了，定了<br />盖棺定论 | v.   | 断定，得出结论             | conclude sth from sth 从……中得出……结论<br />What do you conclude from that?<br />it is concluded that 结论是……                                              |
 
 | 单词 | 词根 | 解释 | 词性 | 释义 | 例句 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
