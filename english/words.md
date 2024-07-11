@@ -552,10 +552,21 @@ determination 决心
 | demonstrate | monstr 怪物，一个人在那走，很怪异，就是怪物<br />mon-一个  str 走  <br />-ate 动词后缀 | 加强表现，                               | v.      | 证明，证实                                 |                                                                 |
 | detail      |                                                                                           |                                          | n.  v. | 细节                                       | the details                                                     |
 
-| 单词 | 词根 | 解释 | 词性 | 释义 | 例句 |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-|      |      |      |      |      |      |
-|      |      |      |      |      |      |
+### 10 di- 分开，离开，看看区别是什么  dia-从两者之间穿过，经过这两个点  dis- 否定，没有
+
+| 单词        | 词根                                                                                       | 解释                                             | 词性 | 释义                   | 例句                                                                                                       |
+| ----------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------ | ---- | ---------------------- | ---------------------------------------------------------------------------------------------------------- |
+| distinguish | di-分开离开<br />sting 刺<br />uish 表动词后缀                                             | 把刺分出来，区分出来，就是区分辨别               | v.   | 区分；辨别             | distinguish between A and B  区分是A还是B<br />distinguish A from B  从A中区分B<br />distinguish A and B |
+| diverse     | vers 旋转<br />reverse 反转                                                                | 转着转着就分开了，变成了不同的形状，形成了多样性 | adj. | 不同的；多种多样的     | My interests are very diverse.                                                                             |
+| diversity   |                                                                                            |                                                  | n.   | 多样性                 |                                                                                                            |
+| division    | di-分开离开<br />vis 最原始的意思是眼睛，看，<br />引申出分开，切开意思<br />-ion 名词后缀 |                                                  | n.   | 分开，分隔             | divide 分开                                                                                                |
+| diagram     | dia- 穿过，相对<br />gram 表示写                                                           | 两个点之间写一个线，连起来就是图表               | n.   | 图表                   |                                                                                                            |
+| dialect     | lect 表讲话<br />lecture 演讲                                                              | 从这山头，到那山头讲的话，就是土话，方言         | n.   | 土话，方言             |                                                                                                            |
+| dialogue    | log 逻辑                                                                                   | 两个人之间有逻辑的说话，就是对话                 | n.   | 对话，会话             |                                                                                                            |
+| diameter    | meter 米，测量                                                                             | 两点之间测量，直径                               | n.   | 直径                   | in diameter 直径为……<br />the dome is 42.3 metres in diameter                                            |
+| disagree    | dis-否定                                                                                   |                                                  | v.   | 不同意，有歧义         | disagree with sb  与……意见不同<br />disagree on sth 对……事情观点不同<br />disagree with sb on sth     |
+| disappear   | ap- 表加强<br />pear 出现                                                                  | 一出现就没有了，就是消失                         | v.   | 消失，不见             | disappear from view 从视线消失<br />Her nervousness quikly disappeared once she was on stage               |
+| disorder    | order顺序                                                                                  | 没有顺序了，混乱了，杂乱无章                     | n.   | 失调，紊乱；杂乱，混乱 |                                                                                                            |
 
 | 单词 | 词根 | 解释 | 词性 | 释义 | 例句 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
