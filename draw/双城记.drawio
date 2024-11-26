@@ -1,0 +1,70 @@
+<mxfile host="Electron" modified="2024-08-23T03:34:00.505Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="NawVPPl0BQU5MVZyU7_z" version="24.2.5" type="device">
+  <diagram name="第 1 页" id="_9AeEa2a_P9SSArMZLRz">
+    <mxGraphModel dx="2261" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4vgeHRA8jhPoVFqSyhuU-1" value="贾维斯·洛瑞&lt;div&gt;银行职工&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vgeHRA8jhPoVFqSyhuU-2" value="路西·马奈特小姐" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vgeHRA8jhPoVFqSyhuU-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4vgeHRA8jhPoVFqSyhuU-3" target="4vgeHRA8jhPoVFqSyhuU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vgeHRA8jhPoVFqSyhuU-5" value="父女" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4vgeHRA8jhPoVFqSyhuU-4">
+          <mxGeometry x="-0.2764" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vgeHRA8jhPoVFqSyhuU-3" value="马奈特先生" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vgeHRA8jhPoVFqSyhuU-6" value="德发日先生" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vgeHRA8jhPoVFqSyhuU-7" value="德发日太太" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vgeHRA8jhPoVFqSyhuU-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4vgeHRA8jhPoVFqSyhuU-8" target="4vgeHRA8jhPoVFqSyhuU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vgeHRA8jhPoVFqSyhuU-8" value="杰里 克伦彻&lt;div&gt;跑腿的&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vgeHRA8jhPoVFqSyhuU-9" value="查尔斯·达内" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vgeHRA8jhPoVFqSyhuU-10" value="斯特里弗&lt;div&gt;律师&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vgeHRA8jhPoVFqSyhuU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4vgeHRA8jhPoVFqSyhuU-11" target="4vgeHRA8jhPoVFqSyhuU-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vgeHRA8jhPoVFqSyhuU-13" value="助手" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4vgeHRA8jhPoVFqSyhuU-12">
+          <mxGeometry x="0.1556" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vgeHRA8jhPoVFqSyhuU-11" value="西德尼·卡顿" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vgeHRA8jhPoVFqSyhuU-14" value="普罗斯小姐" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vgeHRA8jhPoVFqSyhuU-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4vgeHRA8jhPoVFqSyhuU-16" target="4vgeHRA8jhPoVFqSyhuU-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vgeHRA8jhPoVFqSyhuU-18" value="姐弟" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4vgeHRA8jhPoVFqSyhuU-17">
+          <mxGeometry x="0.1833" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vgeHRA8jhPoVFqSyhuU-16" value="所罗门" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
