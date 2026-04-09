@@ -1,0 +1,53 @@
+# 搭建你的 Argilla 实例[[set-up-your-argilla-instance]]
+
+<CourseFloatingBanner chapter={10}
+  classNames="absolute z-10 right-0 top-0"
+  notebooks={[
+    {label: "Google Colab", value: "https://colab.research.google.com/github/huggingface/notebooks/blob/master/course/en/chapter10/section2.ipynb"},
+    {label: "Aws Studio", value: "https://studiolab.sagemaker.aws/import/github/huggingface/notebooks/blob/master/course/en/chapter10/section2.ipynb"},
+]} />
+
+要开始使用 Argilla，你首先需要部署自己的 Argilla 实例。然后还需要安装 Python SDK，这样你才能通过 Python 代码来管理 Argilla。
+
+## 部署 Argilla UI
+
+搭建 Argilla 实例最简单的方式，是通过 Hugging Face Spaces。要创建你的 Argilla Space，只需打开[这个表单](https://huggingface.co/new-space?template=argilla%2Fargilla-template-space)即可。如果你需要更详细的指导，可以查看 [Argilla quickstart](https://docs.argilla.io/latest/getting_started/quickstart/)。
+<img src="https://huggingface.co/datasets/huggingface-course/documentation-images/resolve/main/en/chapter10/space_config.png" alt="Space 配置表单。"/>
+
+>[!WARNING]
+> ⚠️ 你可能需要启用 **Persistent storage（持久化存储）**，这样即使 Space 被暂停或重启，数据也不会丢失。
+> 你可以在 Space 的 Settings 中开启它。
+
+当 Argilla 实例启动完成后，你就可以使用自己的凭据登录。
+
+## 安装并连接 Python SDK
+
+现在可以进入你的 Python 环境或 notebook，安装 `argilla` 库：
+
+`!pip install argilla`
+
+接下来连接你的 Argilla 实例。你需要以下信息：
+
+- **你的 API URL**：也就是 Argilla 的访问地址。如果你使用的是 Space，可以打开 Space，点击右上角三个点，再点 “Embed this Space”，复制其中的 **Direct URL**。它通常看起来像 `https://<your-username>.<space-name>.hf.space`。
+- **你的 API key**：登录 Argilla 实例后，进入 “My Settings”，复制 API key。
+- **你的 HF token**：如果 Space 是私有的，你还需要在 Hugging Face Hub 账号中创建一个具有写权限的 Access Token。
+
+```python
+import argilla as rg
+
+HF_TOKEN = "..."  # 仅私有 Space 需要
+
+client = rg.Argilla(
+    api_url="...",
+    api_key="...",
+    headers={"Authorization": f"Bearer {HF_TOKEN}"},  # 仅私有 Space 需要
+)
+```
+
+为了检查一切是否正常，我们调用 `me`。这应该会返回当前用户信息：
+
+```python
+client.me
+```
+
+如果这一步成功了，说明你的 Argilla 实例已经正常运行，并且你已经成功连接。接下来就可以把第一个数据集加载进 Argilla 了。

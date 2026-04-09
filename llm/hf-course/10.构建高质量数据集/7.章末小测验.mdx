@@ -1,0 +1,186 @@
+<!-- DISABLE-FRONTMATTER-SECTIONS -->
+
+# 章末小测验[[end-of-chapter-quiz]]
+
+<CourseFloatingBanner
+    chapter={10}
+    classNames="absolute z-10 right-0 top-0"
+/>
+
+来测试一下你在本章学到了什么。
+
+### 1. 你可以用 Argilla 来做什么？
+
+<Question
+	choices={[
+		{
+			text: "把非结构化数据转换成适用于 NLP 任务的结构化数据",
+			explain: "正确。你可以使用 Argilla 为数据集添加标注，并将其用于 NLP 任务。",
+            correct: true
+		},
+		{
+			text: "抓取公开网站来构建数据集",
+			explain: "这并不是 Argilla 自带的功能，但你可以先抓取公开网站数据，再通过 Python SDK 把它转换为 Argilla 数据集进行标注。"
+		},
+		{
+			text: "提升已有数据集的质量",
+			explain: "正确。你可以把已有标注作为建议结果，再通过修正它们来提高数据集质量。",
+			correct: true
+		},
+		{
+			text: "把现有数据集改造成适合你自己场景的数据集",
+			explain: "正确。你可以使用 Argilla 中不同类型的问题，把现有数据集调整成适合自己使用场景的形式。",
+			correct: true
+		},
+		{
+			text: "训练你的模型",
+			explain: "Argilla 不能直接训练模型，但你可以使用在 Argilla 中整理好的数据来训练自己的模型。",
+		},
+		{
+			text: "生成合成数据集",
+			explain: "生成合成数据集通常可以借助 distilabel 完成，而 Argilla 更适合对生成结果进行审核和整理。",
+		}
+	]}
+/>
+
+### 2. Argilla 只能运行在 Hugging Face Spaces 中，而且只能配合 Hugging Face Datasets 使用。
+
+<Question
+	choices={[
+        {
+			text: "正确",
+			explain: "并不是。你也可以用 Docker 在本地部署 Argilla，并通过 Python SDK 上传各种类型的数据，包括 Hugging Face Datasets。"
+        },
+        {
+			text: "错误",
+			explain: "正确。你也可以用 Docker 在本地部署 Argilla，并通过 Python SDK 上传各种类型的数据，包括 Hugging Face Datasets。",
+			correct: true
+        }
+	]}
+/>
+
+### 3. 你必须提供 Hugging Face token，才能让 Python SDK 连接到 Argilla 服务端。
+
+<Question
+	choices={[
+        {
+			text: "正确",
+			explain: "只有在你的 Argilla Space 是私有的情况下，才需要 HF token。",
+        },
+        {
+			text: "错误",
+			explain: "正确。如果你使用的是公开的 Argilla Space，或者是本地 Docker 部署，就不需要 token。",
+			correct: true
+        }
+	]}
+/>
+
+### 4. Argilla 中的 **fields** 是什么？可以使用多少个字段？
+
+<Question
+	choices={[
+        {
+			text: "Fields 表示待标注的数据，所有信息都必须放在同一个字段里。",
+			explain: "不对。如果有需要，你可以把信息拆分到多个字段中。"
+        },
+		{
+			text: "Fields 表示待标注的数据，这些信息可以分布在多个字段中。",
+			explain: "正确。你可以定义多个字段，也可以根据数据类型使用不同字段类型，例如文本、聊天、图像等。",
+			correct: true
+        },
+        {
+			text: "Fields 保存的是记录的元数据，而且数量没有限制。",
+			explain: "不对。数据集里既可以有 fields，也可以有 metadata，但它们用途不同。metadata 更适合做过滤和排序等辅助信息，而 fields 展示的是你真正要标注的数据。"
+        }
+	]}
+/>
+
+### 5. 对于 token 分类任务，最适合的问题类型是什么？
+
+<Question
+	choices={[
+        {
+			text: "SpanQuestion",
+			explain: "正确。SpanQuestion 允许你高亮文本片段并给它们打标签，这正是 token 分类任务最合适的形式。",
+            correct: true
+        },
+        {
+			text: "LabelQuestion",
+			explain: "这种问题类型是对整条记录选择一个标签，更适合文本分类任务。"
+        },
+        {
+			text: "TextQuestion",
+			explain: "这种类型允许你自由输入文本，不适合 token 分类任务。"
+        },
+        {
+			text: "以上都不是",
+			explain: "不对。SpanQuestion 才是 token 分类任务中最合适的问题类型。"
+        }
+	]}
+/>
+
+### 6. “Save as draft” 按钮的作用是什么？
+
+<Question
+	choices={[
+        {
+			text: "提交你的标注结果",
+			explain: "不是。这个按钮会保存你的响应，但不会正式提交。"
+        },
+        {
+			text: "保存你的响应，但先不提交",
+			explain: "正确。它会把当前结果保存下来，方便稍后继续编辑。",
+			correct: true
+        },
+        {
+			text: "丢弃一条记录",
+			explain: "不对。丢弃记录是另一种独立操作。"
+        }
+	]}
+/>
+
+### 7. Argilla 不会自动提供建议标签，这些数据必须由你自己提供。
+
+<Question
+	choices={[
+        {
+			text: "正确",
+			explain: "正确。如果你希望看到建议标签，需要在创建记录时或之后手动把建议结果写进去。",
+            correct: true
+        },
+        {
+			text: "错误",
+			explain: "不对。如果想看到建议标签，需要你自己在数据中提供它们。"
+        }
+	]}
+/>
+
+### 8. 如果要把一个完整的 Argilla 数据集导出到 Hub，以下哪些步骤是必要的？
+
+<Question
+	choices={[
+        {
+			text: "先连接到你的 Argilla 服务：<code>client = rg.Argilla(api_url='...', api_key='...')</code>",
+			explain: "正确。要和服务端交互，首先必须实例化客户端。",
+            correct: true
+        },
+		{
+			text: "先从 Hub 导入数据集：<code>dataset = rg.Dataset.from_hub(repo_id='argilla/ag_news_annotated')</code>",
+			explain: "不需要。这是把 Hub 上的数据集导入 Argilla 实例，而不是导出。"
+        },
+        {
+			text: "加载数据集：<code>dataset = client.datasets(name='my_dataset')</code>",
+			explain: "正确。后续操作需要先拿到这个数据集对象。",
+			correct: true
+        },
+        {
+			text: "把 Argilla 数据集转换成 Datasets 数据集：<code>dataset = dataset.to_datasets()</code>",
+			explain: "如果你导出的是完整数据集，这一步不是必须的，Argilla 会替你完成。不过如果你只处理了部分记录，这一步可能有用。"
+        },
+        {
+			text: "调用 <code>to_hub</code> 方法导出数据集：<code>dataset.to_hub(repo_id='my_username/dataset_name')</code>",
+			explain: "正确。它会把数据集推送到指定 repo，如果 repo 不存在，还会自动创建。",
+            correct: true
+        },
+	]}
+/>

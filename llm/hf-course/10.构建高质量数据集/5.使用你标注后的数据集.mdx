@@ -1,0 +1,69 @@
+# 使用你标注后的数据集[[use-your-annotated-dataset]]
+
+<CourseFloatingBanner chapter={10}
+  classNames="absolute z-10 right-0 top-0"
+  notebooks={[
+    {label: "Google Colab", value: "https://colab.research.google.com/github/huggingface/notebooks/blob/master/course/en/chapter10/section5.ipynb"},
+    {label: "Aws Studio", value: "https://studiolab.sagemaker.aws/import/github/huggingface/notebooks/blob/master/course/en/chapter10/section5.ipynb"},
+]} />
+
+现在我们来学习如何导出并使用保存在 Argilla 中的标注数据。
+
+## 加载数据集
+
+首先，像前面几步那样，确保你已经连接到 Argilla 实例：
+
+```python
+import argilla as rg
+
+HF_TOKEN = "..."  # 仅私有 Space 需要
+
+client = rg.Argilla(
+    api_url="...",
+    api_key="...",
+    headers={"Authorization": f"Bearer {HF_TOKEN}"},  # 仅私有 Space 需要
+)
+```
+
+然后加载我们要操作的数据集：
+
+```python
+dataset = client.datasets(name="ag_news")
+```
+
+只要成功加载了数据集，并通过 `dataset.records` 访问记录，你就已经可以在自己的流程或管线中使用这些数据。不过这里我们还会额外学习几个常见操作，例如过滤记录，以及把数据集导出到 Hugging Face Hub。
+
+## 过滤数据集
+
+有时你只想使用已经完成标注的记录，因此我们先根据状态对记录进行过滤：
+
+```python
+status_filter = rg.Query(filter=rg.Filter([("status", "==", "completed")]))
+
+filtered_records = dataset.records(status_filter)
+```
+
+>[!TIP]
+>⚠️ 注意，状态为 `completed` 的记录，指的是满足任务分发设置中“最少提交响应数”的记录。它们可能包含多个响应，而每个响应本身的状态仍可能是 `submitted`、`draft` 或 `discarded`。
+
+关于如何查询和过滤记录，你可以进一步参考 [Argilla 文档](https://docs.argilla.io/latest/how_to_guides/query/)。
+
+## 导出到 Hub
+
+现在我们可以把标注结果导出到 Hugging Face Hub，方便共享。做法是先把记录转换成 🤗 Dataset，再推送到 Hub：
+
+```python
+filtered_records.to_datasets().push_to_hub("argilla/ag_news_annotated")
+```
+
+另一种方式，是直接导出整个 Argilla 数据集，包括尚未完成的记录：
+
+```python
+dataset.to_hub(repo_id="argilla/ag_news_annotated")
+```
+
+如果你希望其他人也能把这个完整数据集重新导入到他们自己的 Argilla 实例中，这种方式会很方便，因为数据集设置也会一并保存下来。别人只需要一行代码就能重新导入：
+
+```python
+dataset = rg.Dataset.from_hub(repo_id="argilla/ag_news_annotated")
+```

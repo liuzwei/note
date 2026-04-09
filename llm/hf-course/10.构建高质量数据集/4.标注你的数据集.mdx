@@ -1,0 +1,45 @@
+# 标注你的数据集[[annotate-your-dataset]]
+
+<CourseFloatingBanner
+    chapter={10}
+    classNames="absolute z-10 right-0 top-0"
+/>
+
+现在可以正式进入 Argilla UI，对数据集进行标注了。
+
+## 用标注指南统一团队标准
+
+在开始标注之前，最好先写一份标注指南，特别是在团队协作时更是如此。这样可以帮助团队对任务理解、标签使用规则保持一致，并在遇到问题或分歧时更容易做出统一判断。
+
+在 Argilla 中，你可以进入数据集设置页面，在 UI 中修改指南内容，以及问题描述，从而帮助团队统一标准。
+
+<img src="https://huggingface.co/datasets/huggingface-course/documentation-images/resolve/main/en/chapter10/argilla_dataset_settings.png" alt="Argilla 中 Dataset Settings 页面截图。"/>
+
+如果你想更深入了解如何撰写优秀的标注指南，推荐阅读[这篇博客](https://argilla.io/blog/annotation-guidelines-practices)及其中引用的相关文献。
+
+## 分配任务
+
+在数据集设置页面中，你还可以修改任务分发设置。如果你在团队协作中使用 Argilla，这能帮助你更高效地完成标注。默认情况下，最少提交响应数是 1，也就是一条记录一旦收到 1 个已提交响应，就会被视为完成，并计入数据集进度。
+
+有时你希望每条记录不止有一个已提交响应，例如你想分析不同标注者之间的一致性。这时就需要把这个设置改成更大的数值，但它必须小于或等于总标注人数。如果你是单独完成这项任务，那么这个值设为 1 就可以。
+
+## 标注记录
+
+>[!TIP]
+>💡 如果你把 Argilla 部署在 Hugging Face Space 中，团队成员可以直接通过 Hugging Face OAuth 登录。否则，你可能需要按照[这份指南](https://docs.argilla.io/latest/how_to_guides/user/)为他们单独创建用户。
+
+当你打开数据集时，会发现第一个问题已经预先填好了一些建议标签。这是因为上一节中我们把名为 `label` 的问题映射到了数据集里的 `label_text` 列，因此这里我们只需要审核并修正这些已有标签即可：
+
+<img src="https://huggingface.co/datasets/huggingface-course/documentation-images/resolve/main/en/chapter10/argilla_initial_dataset.png" alt="Argilla 中数据集的截图。"/>
+
+而对于 token 分类任务，因为我们没有提供任何建议标注，所以需要手动把所有实体标签补出来。完成 span 标注后，大概会是下面这样：
+
+<img src="https://huggingface.co/datasets/huggingface-course/documentation-images/resolve/main/en/chapter10/argilla_dataset_with_spans.png" alt="Argilla 中带 span 标注的数据集截图。"/>
+
+在浏览不同记录时，你可以进行以下操作：
+
+- 提交响应：当你完成当前记录标注后使用。
+- 保存为草稿：如果你想稍后再回来继续处理，可以先保存。
+- 丢弃：如果这条记录不应该出现在数据集中，或者你不打算给它填写响应，可以将其丢弃。
+
+下一节你将学习如何导出这些标注结果并继续使用它们。

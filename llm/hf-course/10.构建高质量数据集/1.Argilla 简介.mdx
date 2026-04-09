@@ -1,0 +1,26 @@
+# Argilla 简介[[introduction-to-argilla]]
+
+<CourseFloatingBanner
+    chapter={10}
+    classNames="absolute z-10 right-0 top-0"
+/>
+
+在第 5 章中，你已经学习了如何使用 🤗 Datasets 库构建数据集；在第 6 章中，你也探索了如何针对一些常见的 NLP 任务微调模型。本章你将学习如何使用 [Argilla](https://argilla.io) 来**标注和整理数据集**，以便后续用于训练和评估你的模型。
+
+训练出表现优秀模型的关键，在于高质量数据。虽然 Hub 上已经有一些不错的数据集可供训练和评估使用，但它们未必适合你的具体应用场景或业务需求。在这种情况下，你就可能需要构建并整理属于自己的数据集。Argilla 可以帮助你高效完成这件事。
+
+<img src="https://huggingface.co/datasets/huggingface-course/documentation-images/resolve/main/en/chapter10/signin-hf-page.png" alt="Argilla 登录页面。"/>
+
+使用 Argilla，你可以：
+
+- 把非结构化数据转换成可用于 NLP 任务的**结构化数据**。
+- 对数据集进行整理，把低质量数据集逐步提升为**高质量数据集**。
+- 为 LLM 和多模态模型收集**人工反馈**。
+- 邀请专家在 Argilla 中协作标注，或者通过众包方式完成标注。
+
+本章你将学到：
+
+- 如何搭建你自己的 Argilla 实例。
+- 如何加载数据集，并根据常见 NLP 任务完成配置。
+- 如何使用 Argilla UI 对数据集进行标注。
+- 如何使用整理后的数据集，并将其导出到 Hub。

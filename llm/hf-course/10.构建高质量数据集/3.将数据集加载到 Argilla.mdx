@@ -1,0 +1,108 @@
+# 将数据集加载到 Argilla[[load-your-dataset-to-argilla]]
+
+<CourseFloatingBanner chapter={10}
+  classNames="absolute z-10 right-0 top-0"
+  notebooks={[
+    {label: "Google Colab", value: "https://colab.research.google.com/github/huggingface/notebooks/blob/master/course/en/chapter10/section3.ipynb"},
+    {label: "Aws Studio", value: "https://studiolab.sagemaker.aws/import/github/huggingface/notebooks/blob/master/course/en/chapter10/section3.ipynb"},
+]} />
+
+根据你当前处理的 NLP 任务，以及具体业务场景的不同，数据形式和标注任务也会不同。本节我们将使用[一个新闻数据集](https://huggingface.co/datasets/SetFit/ag_news)来完成两个任务：对每条文本进行主题分类，以及做 token 分类来识别其中提到的命名实体。
+
+<iframe
+  src="https://huggingface.co/datasets/SetFit/ag_news/embed/viewer/default/train"
+  frameborder="0"
+  width="100%"
+  height="560px"
+></iframe>
+
+你可以直接在 Argilla UI 中从 Hub 导入数据集，但这里我们会使用 SDK，这样也能顺便学习在需要时如何对数据进一步修改。
+
+## 配置数据集
+
+第一步，像上一节那样连接到你的 Argilla 实例：
+
+```python
+import argilla as rg
+
+HF_TOKEN = "..."  # 仅私有 Space 需要
+
+client = rg.Argilla(
+    api_url="...",
+    api_key="...",
+    headers={"Authorization": f"Bearer {HF_TOKEN}"},  # 仅私有 Space 需要
+)
+```
+
+现在可以思考 Argilla 中的数据集配置了。它们对应的是你要在数据上执行的标注任务。首先，我们从 Hub 加载数据集并查看它的特征，以确保后面的配置是正确的。
+
+```python
+from datasets import load_dataset
+
+data = load_dataset("SetFit/ag_news", split="train")
+data.features
+```
+
+这个数据集包含如下特征：
+
+```python out
+{'text': Value(dtype='string', id=None),
+ 'label': Value(dtype='int64', id=None),
+ 'label_text': Value(dtype='string', id=None)}
+```
+
+它包含一个 `text` 字段，以及一些现有的文本分类标签。我们会把这些信息加入数据集设置中，同时再增加一个 `spans` 问题，用来标注命名实体：
+
+```python
+settings = rg.Settings(
+    fields=[rg.TextField(name="text")],
+    questions=[
+        rg.LabelQuestion(
+            name="label", title="对这段文本进行分类：", labels=data.unique("label_text")
+        ),
+        rg.SpanQuestion(
+            name="entities",
+            title="高亮文本中的所有实体：",
+            labels=["PERSON", "ORG", "LOC", "EVENT"],
+            field="text",
+        ),
+    ],
+)
+```
+
+我们来更具体地理解一下这些设置。首先，我们定义了 **fields**，也就是待标注的信息内容。本例里只有一个字段，而且它是文本，所以我们选择了 `TextField`。
+
+然后，我们定义 **questions**，也就是想在数据上完成的标注任务：
+
+- 对于文本分类任务，我们选择 `LabelQuestion`，并使用 `label_text` 列中的唯一值作为标签，以确保这个问题和原始数据集中已有的标签兼容。
+- 对于 token 分类任务，我们需要使用 `SpanQuestion`。我们定义了一组要标注的实体类别，并指定这些 span 是在 `text` 字段上标出来的。
+
+如果你想了解所有可用的字段类型、问题类型，以及 metadata、vectors 等更高级设置，可以查看 [Argilla 文档](https://docs.argilla.io/latest/how_to_guides/dataset/#define-dataset-settings)。
+
+## 上传数据集
+
+完成设置后，就可以创建数据集：
+
+```python
+dataset = rg.Dataset(name="ag_news", settings=settings)
+
+dataset.create()
+```
+
+此时数据集已经出现在你的 Argilla 实例中，但你会发现它还是空的：
+
+<img src="https://huggingface.co/datasets/huggingface-course/documentation-images/resolve/main/en/chapter10/empty_dataset.png" alt="空数据集截图。"/>
+
+接下来要添加待标注的记录，也就是数据集中的每一行。我们只需要把数据记录下来，并为那些在 Hub 数据集和 Argilla 数据集中名称不同的字段提供映射关系：
+
+```python
+dataset.records.log(data, mapping={"label_text": "label"})
+```
+
+这里的映射表示：原数据集中的 `label_text` 列，对应 Argilla 中名为 `label` 的问题。这样我们就可以直接把已有标签作为预标注结果，用来加快后续标注速度。
+
+即使记录还在持续写入，你也已经可以在 Argilla UI 里开始查看数据集。此时它大概会是下面这样：
+
+<img src="https://huggingface.co/datasets/huggingface-course/documentation-images/resolve/main/en/chapter10/argilla_initial_dataset.png" alt="Argilla 中数据集的截图。"/>
+
+现在，数据集已经准备好，可以开始标注了。
